@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/fragYellowFrag"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:name="examples.aaronhoskins.com.fragmentdemo.YellowFragment"/>
+
+    <FrameLayout
+        android:id="@+id/frmBlueFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/frmBlueFragmentTwo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <FrameLayout
+        android:id="@+id/frmRedFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btnPopOneFromStack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pop One From Stack"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btnPopUptoTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POP UPTO TAG"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/btnRemoveInstance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REMOVE BLUE ONE INSTANCE"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

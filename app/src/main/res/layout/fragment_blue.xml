@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#001DFF"
+    tools:context=".BlueFragment">
+
+    <TextView
+        android:id="@+id/tvInitData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:hint="Enter Something"/>
+
+    <Button
+        android:id="@+id/btnSendUserInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click to Send Data"/>
+
+</LinearLayout>
